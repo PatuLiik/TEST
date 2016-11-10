@@ -31,8 +31,8 @@ while True: #---MAIN LOOP---#
     if keys[pygame.K_LEFT]:
         player1.move(-2)
         
-    screen.fill([255, 160, 0])
-    #screen.blit(pygame.image.load("taust.png"), [0,0])
+    #screen.fill([255, 160, 0])
+    screen.blit(pygame.image.load("taust.png"), [0,0])
     #SEE PANEB TAUSTA, AGA TUNDUB ET SEE TEEB SELLE NATUKE AEGLASEMAKS(VÕIB KATSETADA)
 
     if game_start: #---GAMEPLAY---#
